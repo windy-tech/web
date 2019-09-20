@@ -1,0 +1,29 @@
+{
+  "name": "windy-web",
+  "version": "1.0.0",
+  "description": "web interface of windy-learning",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windy-tech/web.git"
+  },
+  "keywords": [
+    "web",
+    "learning",
+    "fast"
+  ],
+  "author": "windy-tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/windy-tech/web/issues"
+  },
+  "homepage": "https://github.com/windy-tech/web#readme"
+}
