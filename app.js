@@ -31,6 +31,10 @@ app.get('/community', function(request,response){
 	response.sendFile('community.html',{root:path.join(__dirname,'./views')});
 });
 
+app.get('/navbar', function(request,response){
+	response.sendFile('navbar.html',{root:path.join(__dirname,'./views')});
+});
+
 app.listen(3000,function(){
 	console.log('Listening at port 3000...');
 });
