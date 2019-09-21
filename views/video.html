@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>theMaruf</title>
+    <title>Windy</title>
     <link rel="stylesheet" type="text/css" href="/assets/style.css">
-    <link rel="stylesheet" type="text/css" href="/assets/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/assets/bootstrap/dist/js/bootstrap.min.js">
+    <link rel="stylesheet" type="text/css"
+          href="/assets/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="/assets/bootstrap/dist/js/bootstrap.min.js">
     <script src="/assets/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/js/navbar.js"></script>
     <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
+<script> init_navbar(document) </script>
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
@@ -21,15 +25,15 @@
 				<div class="col-md-12 column">
                     <div class="view">
 
-                    <ul class="breadcrumb">
-                        <li>
-                            <a href="#" contenteditable="true">Home</a>
-                        </li>
-                        <li>
-                            <a href="#" contenteditable="true">Library</a>
-                        </li>
-                        <li class="active" contenteditable="true">Data</li>
-                    </ul>
+<!--                    <ul class="breadcrumb">-->
+<!--                        <li>-->
+<!--                            <a href="#" contenteditable="true">Home</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#" contenteditable="true">Library</a>-->
+<!--                        </li>-->
+<!--                        <li class="active" contenteditable="true">Data</li>-->
+<!--                    </ul>-->
 
                 </div>
 				</div>
@@ -48,7 +52,7 @@
             </div>
 
             <video width="1100" height="550" controls>
-                  <source src="https://www.runoob.com/try/demo_source/mov_bbb.mp4" type="video/mp4">
+                  <source src="http://mov.bn.netease.com/open-movie/nos/mp4/2017/02/06/SCBLNOCTF_shd.mp4" type="video/mp4">
 <!--                          <source src="movie.ogg" type="video/ogg">-->
                            您的浏览器不支持Video标签。
             </video>
@@ -65,81 +69,16 @@
 				评论:
 			</h2>
 			<p>
+				数量：128
+				<br />
+			</p>
+			<p>
+				<br />
 				老王： 这个课程太有用了，666~~~
 			</p>
 			<p>
-				 <a class="btn" href="#">details »</a>
+				 <a class="btn" href="#">details</a>
 			</p>
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="navbar-header">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Brand</a>
-				</div>
-
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="active">
-							 <a href="#">Link</a>
-						</li>
-						<li>
-							 <a href="#">Link</a>
-						</li>
-						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									 <a href="#">Action</a>
-								</li>
-								<li>
-									 <a href="#">Another action</a>
-								</li>
-								<li>
-									 <a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									 <a href="#">Separated link</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									 <a href="#">One more separated link</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-					<form class="navbar-form navbar-left" role="search">
-						<div class="form-group">
-							<input type="text" class="form-control" />
-						</div> <button type="submit" class="btn btn-default">Submit</button>
-					</form>
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							 <a href="#">Link</a>
-						</li>
-						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									 <a href="#">Action</a>
-								</li>
-								<li>
-									 <a href="#">Another action</a>
-								</li>
-								<li>
-									 <a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									 <a href="#">Separated link</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-
-			</nav>
 		</div>
 	</div>
 </div>
