@@ -41,8 +41,14 @@ app.get('/community', function(request,response){
 	response.sendFile('community.html',{root:path.join(__dirname,'./views')});
 });
 
+// for /personal page
+app.get('/personal', function(request,response){
+	response.sendFile('personal.html',{root:path.join(__dirname,'./views')});
+});
+
 app.listen(3000,function(){
 	console.log('Listening at port 3000...');
 });
 
 module.exports = app;
+
