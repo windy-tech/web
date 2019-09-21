@@ -35,8 +35,24 @@ app.get('/live', function(request,response){
 app.get('/upload', function(request,response){
 	response.sendFile('upload.html',{root:path.join(__dirname,'./views')});
 });
+//for /vido page
+app.get('/vido', function(request,response){
+	response.sendFile('vido.html',{root:path.join(__dirname,'./views')});
+});
+
+// for /community page
+app.get('/community', function(request,response){
+	response.sendFile('community.html',{root:path.join(__dirname,'./views')});
+});
+
+// for /personal page
+app.get('/personal', function(request,response){
+	response.sendFile('personal.html',{root:path.join(__dirname,'./views')});
+});
+
 app.listen(3000,function(){
 	console.log('Listening at port 3000...');
 });
 
 module.exports = app;
+
