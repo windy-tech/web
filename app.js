@@ -31,9 +31,23 @@ app.get('/live', function(request,response){
 	response.sendFile('live.html',{root:path.join(__dirname,'./views')});
 });
 
+//for /upload page
+app.get('/upload', function(request,response){
+	response.sendFile('upload.html',{root:path.join(__dirname,'./views')});
+});
 //for /video page
 app.get('/video', function(request,response){
 	response.sendFile('video.html',{root:path.join(__dirname,'./views')});
+});
+
+// for /community page
+app.get('/community', function(request,response){
+	response.sendFile('community.html',{root:path.join(__dirname,'./views')});
+});
+
+// for /personal page
+app.get('/personal', function(request,response){
+	response.sendFile('personal.html',{root:path.join(__dirname,'./views')});
 });
 
 app.listen(3000,function(){
@@ -41,3 +55,4 @@ app.listen(3000,function(){
 });
 
 module.exports = app;
+
