@@ -35,9 +35,9 @@ app.get('/live', function(request,response){
 app.get('/upload', function(request,response){
 	response.sendFile('upload.html',{root:path.join(__dirname,'./views')});
 });
-//for /vido page
-app.get('/vido', function(request,response){
-	response.sendFile('vido.html',{root:path.join(__dirname,'./views')});
+//for /video page
+app.get('/video', function(request,response){
+	response.sendFile('video.html',{root:path.join(__dirname,'./views')});
 });
 
 // for /community page
