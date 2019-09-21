@@ -40,6 +40,11 @@ app.get('/video', function(request,response){
 	response.sendFile('video.html',{root:path.join(__dirname,'./views')});
 });
 
+//for /doc page
+app.get('/doc', function(request,response){
+	response.sendFile('doc.html',{root:path.join(__dirname,'./views')});
+});
+
 // for /community page
 app.get('/community', function(request,response){
 	response.sendFile('community.html',{root:path.join(__dirname,'./views')});
