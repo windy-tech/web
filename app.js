@@ -36,6 +36,11 @@ app.get('/vido', function(request,response){
 	response.sendFile('vido.html',{root:path.join(__dirname,'./views')});
 });
 
+// for /community page
+app.get('/community', function(request,response){
+	response.sendFile('community.html',{root:path.join(__dirname,'./views')});
+});
+
 app.listen(3000,function(){
 	console.log('Listening at port 3000...');
 });
