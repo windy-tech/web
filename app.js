@@ -31,6 +31,10 @@ app.get('/live', function(request,response){
 	response.sendFile('live.html',{root:path.join(__dirname,'./views')});
 });
 
+//for /upload page
+app.get('/upload', function(request,response){
+	response.sendFile('upload.html',{root:path.join(__dirname,'./views')});
+});
 app.listen(3000,function(){
 	console.log('Listening at port 3000...');
 });
